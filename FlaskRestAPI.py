@@ -1,3 +1,5 @@
+import traceback
+
 from flask import Flask
 from flask_restful import Resource, Api
 
@@ -36,5 +38,6 @@ if __name__ == '__main__':
         schedule.start()
         LogErrors.logError('Testing startup')
     except:
+        print(traceback.print_exc())
         LogErrors.logError('Error happened')
     app.run(debug=False)

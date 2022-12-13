@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< Updated upstream
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (NordPoolAPI)" project-jdk-type="Python SDK" />
-  <component name="PyCharmProfessionalAdvertiser">
-    <option name="shown" value="true" />
-=======
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="Python 3.11 (ElPriserAPI)" project-jdk-type="Python SDK">
     <output url="file://$PROJECT_DIR$/out" />
->>>>>>> Stashed changes
   </component>
 </project>
