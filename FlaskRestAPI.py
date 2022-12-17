@@ -34,7 +34,7 @@ if __name__ == '__main__':
     try:
         SERVERJOB = ServerJob()
         schedule = BackgroundScheduler(daemon=True)
-        schedule.add_job(SERVERJOB.run, 'interval', seconds=1000)
+        schedule.add_job(SERVERJOB.run, 'interval', seconds=20)
         schedule.start()
         LogErrors.logError('Testing startup')
     except:
