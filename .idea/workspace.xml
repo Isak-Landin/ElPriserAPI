@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c162a4dc-ddc4-49df-a53b-42df1f5ac18d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/FlaskRestAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskRestAPI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Runner.py" afterDir="false" />
-    </list>
+    <list default="true" id="c162a4dc-ddc4-49df-a53b-42df1f5ac18d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
