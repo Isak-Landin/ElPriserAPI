@@ -2,7 +2,7 @@ import requests
 import traceback
 from LogErrors import LogErrors
 from datetime import date
-from multiprocessing import Manager
+from Runner import Storage
 from ElSpotTodayPricesScraper import ScrapeElSpot
 from Sorter import Sorter
 
@@ -12,7 +12,7 @@ import json
 class Collector:
     def __init__(self, next_process: Sorter, *args, **kwargs):
         super(Collector, self).__init__(*args, **kwargs)
-        self.global_storage_namespace: Manager = None
+        self.global_storage_namespace: Storage = None
         self.ElSpotScraper: ScrapeElSpot = ScrapeElSpot()
 
         self.value = False
@@ -61,7 +61,7 @@ class Collector:
             error: str = traceback.format_exc()
             LogErrors.logError(error)
 
-    def assignGlobalStorage(self, global_storage_namespace: Manager):
+    def assignGlobalStorage(self, global_storage_namespace: Storage):
         self.global_storage_namespace = global_storage_namespace
 
     def entireProcess(self):

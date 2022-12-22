@@ -5,9 +5,11 @@ from LogErrors import LogErrors
 import traceback
 from datetime import datetime
 
+from Runner import Storage
+
 
 class ProcessRunner:
-    def __init__(self, global_storage_namespace: Manager = None):
+    def __init__(self, global_storage_namespace: Storage = None):
         self.global_data_storage: Manager = global_storage_namespace
         self.sorter_instance = Sorter()
         self.sorter_instance.assignGlobalStorageNamespace(self.global_data_storage)

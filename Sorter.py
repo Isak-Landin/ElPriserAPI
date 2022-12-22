@@ -1,5 +1,5 @@
 import json
-from multiprocessing import Manager
+from Runner import Storage
 import datetime
 import os
 from LogErrors import LogErrors
@@ -27,7 +27,7 @@ class Sorter:
         self.global_storage = None
         self.value: bool = False
 
-    def assignGlobalStorageNamespace(self, global_storage_name_space: Manager):
+    def assignGlobalStorageNamespace(self, global_storage_name_space: Storage):
         self.global_storage = global_storage_name_space
 
     def checkForAllowanceToRun(self):
