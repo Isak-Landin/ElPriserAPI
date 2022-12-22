@@ -15,13 +15,16 @@ class Storage:
 
 class ServerJob:
     def __init__(self):
-        self.global_data_manager: Storage = Storage()
+        self.global_storage: Storage = Storage()
 
-        self.process_running_instance: ProcessRunner = ProcessRunner(global_storage_namespace=self.global_data_manager)
+        self.process_running_instance: ProcessRunner = ProcessRunner(global_storage_namespace=self.global_storage)
 
     def run(self):
         print('Running')
         self.process_running_instance.runProcess()
+
+    def reset(self):
+        self.global_storage.reset()
 
 
 if __name__ == '__main__':

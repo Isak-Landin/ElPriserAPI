@@ -13,12 +13,11 @@ from LogErrors import LogErrors
 
 app = Flask(__name__)
 api = Api(app)
-SERVERJOB = ServerJob()
+instance_of_runner = ServerJob()
 
 
 class CostsToday(Resource):
     def get(self):
-        SERVERJOB.run()
         return Operations.getJsonPriceContents()
 
 
@@ -31,5 +30,5 @@ api.add_resource(CostsToday, '/')
 api.add_resource(ErrorsToday, '/errors')
 LogErrors.logError('Testing start')
 
-
+schedule.every(20).seconds.do(instance_of_runner.run)
 app.run(debug=False)

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c162a4dc-ddc4-49df-a53b-42df1f5ac18d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/Collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALLOWS_request_bs4_instascrape.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FlaskRestAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskRestAPI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LOG.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LOG.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProcessRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProcessController.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sorter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testAsOrangePi.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
