@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c162a4dc-ddc4-49df-a53b-42df1f5ac18d" name="Changes" comment="" />
+    <list default="true" id="c162a4dc-ddc4-49df-a53b-42df1f5ac18d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/Collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProcessRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProcessRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sorter.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +28,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IqgY3pNfNNPSOtPmFQpl3MXRPK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
