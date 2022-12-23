@@ -2,6 +2,7 @@ import traceback
 
 from flask import Flask
 from flask import Response
+from flask import request
 from flask_restful import Resource, Api
 
 import schedule
@@ -18,7 +19,7 @@ instance_of_runner = ServerJob()
 
 
 class CostsToday(Resource):
-    def get(self):
+    def post(self):
         if bool(Operations.getJsonPriceContents()):
             return Operations.getJsonPriceContents()
         else:
@@ -26,7 +27,7 @@ class CostsToday(Resource):
 
 
 class ErrorsToday(Resource):
-    def get(self):
+    def post(self):
         return Operations.getErrorContents()
 
 
