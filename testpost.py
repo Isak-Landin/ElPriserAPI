@@ -1,6 +1,5 @@
 import requests
 import json
 
-response = requests.post('https://isaklandin.com/api/prices/')
-
-print(response.content)
+response = requests.post('http://api.isaklandin.com/prices/')
+print(response.json())

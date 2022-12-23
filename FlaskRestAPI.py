@@ -2,6 +2,7 @@ import traceback
 
 from flask import Flask
 from flask import Response
+from flask import jsonify
 from flask import request
 from flask_restful import Resource, Api
 
@@ -20,7 +21,7 @@ instance_of_runner = ServerJob()
 
 class CostsToday(Resource):
     def post(self):
-        return 'Hej'
+        return jsonify({'test': 2})
         """
         if bool(Operations.getJsonPriceContents()):
             return Operations.getJsonPriceContents()
