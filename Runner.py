@@ -1,16 +1,5 @@
 from ProcessRunner import ProcessRunner
-
-
-class Storage:
-    def __init__(self):
-        self.today_dict = None
-        self. tomorrow_dict = None
-        self.collected = False
-
-    def reset(self):
-        self.today_dict = None
-        self.tomorrow_dict = None
-        self.collected = False
+from Storage import Storage
 
 
 class ServerJob:

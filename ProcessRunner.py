@@ -5,7 +5,7 @@ from LogErrors import LogErrors
 import traceback
 from datetime import datetime
 
-from Runner import Storage
+from Storage import Storage
 
 
 class ProcessRunner:

@@ -2,7 +2,7 @@ import requests
 import traceback
 from LogErrors import LogErrors
 from datetime import date
-from Runner import Storage
+from Storage import Storage
 from ElSpotTodayPricesScraper import ScrapeElSpot
 from Sorter import Sorter
 

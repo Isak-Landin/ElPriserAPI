@@ -1,5 +1,5 @@
 import json
-from Runner import Storage
+from Storage import Storage
 import datetime
 import os
 from LogErrors import LogErrors
