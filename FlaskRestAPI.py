@@ -20,10 +20,13 @@ instance_of_runner = ServerJob()
 
 class CostsToday(Resource):
     def post(self):
+        return 'Hej'
+        """
         if bool(Operations.getJsonPriceContents()):
             return Operations.getJsonPriceContents()
         else:
             return Response({'Contents': None}, content_type='application/json')
+        """
 
 
 class ErrorsToday(Resource):
